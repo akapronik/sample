@@ -10,9 +10,6 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 6 }
 
 	
-	###########
-	validates_presence_of :password, :on => :create
-	###########
 	
 
 	def User.new_remember_token
