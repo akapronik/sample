@@ -16,6 +16,10 @@ html {
   overflow-y: scroll;
 }
 
+.home {
+  padding-top: 35px;
+}
+
 body {
   padding-top: 60px;
 }
@@ -46,6 +50,8 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+		background-size: auto;
+
 }
 
 h2 {
@@ -253,3 +259,48 @@ aside {
   padding-left: 10px;
   color: $grayLight;
 }
+
+
+
+.anime {
+	width: auto;
+	font-size: 50px;
+	background: white;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+}
+.transition {
+	transition: 0s 999s;
+	color: white;
+}
+.transition:hover {
+  transition: 1.5s;
+	transition-delay: 0.2s;
+	color: black;
+}
+
+#none {
+	cursor: none;
+	text-decoration: none;
+	color: black;
+}
+
+
+.transition-opacity {
+  text-align: center;
+  font-size: 60px;
+  transition: 2s ease-in;
+	opacity: 0;
+	transition-delay: 0.7s;
+  color: black;
+}
+
+.transition-opacity:hover {
+  opacity: 1;
+}
+
+.red {
+	color: red;
+}
+
+

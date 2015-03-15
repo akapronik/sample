@@ -16,7 +16,8 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 6 }
 
 	
-	
+
+
 	def feed
 		Micropost.from_users_followed_by(self)
 	end
@@ -40,6 +41,7 @@ class User < ActiveRecord::Base
   def User.encrypt(token)
     Digest::SHA1.hexdigest(token.to_s)
   end
+
 
   private
 

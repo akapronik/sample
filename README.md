@@ -1,4 +1,4 @@
-# Перевод Ruby on Rails Tutorial: пример приложения
+# Pronik First
 
 Это пример приложения для
 [*Ruby on Rails Tutorial*](http://railstutorial.org/)
